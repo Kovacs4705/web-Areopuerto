@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
             this.notaExamen = notaExamen;
             this.notaPracticas = notaPracticas;
         }
-/*jasjdkjasd*/
         getNombre() {
             return this.nombre;
         }
