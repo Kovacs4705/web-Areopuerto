@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Datos guardados para el alumno con ID: " + id);
     });
 
-    document.getElementById("botonMostrar").addEventListener("click", () => {
+    document.getElementById("botonBuscar").addEventListener("click", () => {    
         const id = parseInt(document.getElementById("idSalida").value);
         const alumno = colegio.consultarAlumno(id);
         
